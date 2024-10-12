@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: purple;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-heading {
+  color: white;
+}
+.Main-Content {
+  display: flex;
+  margin: 20px 20px;
+  gap: 20px;
+}
+.box {
+  background-color: aqua;
+  padding: 20px 10px;
+  width: 600px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box > h1 {
+  font-weight: 900;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons > button {
+  padding: 2px 20px;
+}
+.box3 > button {
+  padding: 2px;
+}
